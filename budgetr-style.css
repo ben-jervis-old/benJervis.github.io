@@ -92,11 +92,11 @@ button:focus {
 		font-size: 12rem;
 	}
 	
-	input {
+	input, button {
 		font-size: 3.6rem;
-		width: 450px;
+		width: 90%;
 		padding: 25px;
-		margin: 30px auto;
+		margin: 30px 40px;
 	}
 	
 	.login-section {
