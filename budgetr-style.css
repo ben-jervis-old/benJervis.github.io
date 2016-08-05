@@ -112,7 +112,7 @@ button:focus {
 	.link-store p {
 		display: block;
 		text-align: center;
-		float: none;
+		float: center;
 		font-size: 2rem;
 	}
 }
