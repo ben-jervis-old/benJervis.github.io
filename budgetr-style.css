@@ -90,10 +90,10 @@ button:focus {
 	}
 	
 	.login-section {
-		margin-top: 3vh;
+		margin-top: 0;
 	}
 	
-	form {
+	input, button {
 		margin: 15px auto;
 	}
 }
