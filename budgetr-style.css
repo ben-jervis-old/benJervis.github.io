@@ -87,4 +87,13 @@ button:focus {
 	header {
 		visibility: hidden;
 	}
+	
+	h1 {
+		font-size: 15rem;
+	}
+	
+	input {
+		font-size: 3.6rem;
+		width: 450px;
+	}
 }
