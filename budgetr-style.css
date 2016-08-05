@@ -114,6 +114,7 @@ button:focus {
 		text-align: center;
 		float: center;
 		font-size: 2rem;
+		margin: 0 auto;
 	}
 	
 	#create {
