@@ -83,7 +83,7 @@ button:active {
 button:focus {
 	outline: 0;
 }
-@media (max-width: 500px) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	header {
 		visibility: hidden;
 	}
