@@ -94,9 +94,9 @@ button:focus {
 	
 	input, button {
 		font-size: 3.6rem;
-		width: auto;
+		width: 80%;
 		padding: 25px;
-		margin: 30px 40px;
+		margin: 30px auto;
 	}
 	
 	.login-section {
@@ -112,5 +112,6 @@ button:focus {
 		display: block;
 		text-align: center;
 		float: none;
+		font-size: 2rem;
 	}
 }
