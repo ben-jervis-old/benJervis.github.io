@@ -115,4 +115,12 @@ button:focus {
 		float: center;
 		font-size: 2rem;
 	}
+	
+	#create {
+		float: center;
+	}
+	
+	#reset {
+		float:center;
+	}
 }
