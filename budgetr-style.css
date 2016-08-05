@@ -90,7 +90,7 @@ button:focus {
 	
 	h1 {
 		font-size: 12rem;
-		margin-bottom: 30px;
+		margin-bottom: 80px;
 	}
 	
 	input, button {
@@ -109,12 +109,12 @@ button:focus {
 		margin: 40px auto;
 	}
 	
-	.link-store p {
+	p {
 		display: block;
 		text-align: center;
 		float: center;
 		font-size: 2rem;
-		margin: 0 auto;
+		width: auto;
 	}
 	
 	#create {
