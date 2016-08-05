@@ -94,12 +94,23 @@ button:focus {
 	
 	input, button {
 		font-size: 3.6rem;
-		width: 90%;
+		width: auto;
 		padding: 25px;
 		margin: 30px 40px;
 	}
 	
 	.login-section {
 		margin-top: 5vh;
+	}
+	
+	.link-store {
+		width: auto;
+		margin: 40px;
+	}
+	
+	.link-store p {
+		display: block;
+		text-align: center;
+		float: none;
 	}
 }
