@@ -83,6 +83,7 @@ button:active {
 button:focus {
 	outline: 0;
 }
+/*
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	header {
 		visibility: hidden;
@@ -125,3 +126,4 @@ button:focus {
 		float:center;
 	}
 }
+*/
