@@ -1,0 +1,85 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	height: 80%;
+	margin: 0;
+}
+
+header {
+	background-color: rgba(0, 130, 0, 0.8);
+	/*height: 20px;*/
+	text-align: center;
+}
+
+header h3 {
+	margin: 0 auto;
+	padding: 20px;
+	color: white;
+}
+
+.login-section {
+	margin-top: 20vh;
+}
+
+h1 {
+	color: rgba(0, 130, 0, 0.8);
+	text-align: center;
+	font-size: 5em;
+	margin: 30px auto;
+}
+
+input {
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	display: block;
+	margin: 10px auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	width: 300px;
+}
+
+button {
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 10px;
+	border: 0;
+	background-color: rgba(0, 130, 0, 0.8);
+	display: block;
+	margin: 0 auto;
+	color: white;
+	width: 150px;
+	font-size: 1.2em;
+}
+
+.link-store {
+	margin: 30px auto;
+	max-width: 350px;
+}
+
+p {
+	display: inline;
+}
+
+p a {
+	color: rgb(0, 130, 0);
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+#create {
+	float: left;
+}
+
+#reset {
+	float: right;
+}
+
+button:active {
+	background-color: rgba(0, 130, 0, 1);
+}
+button:focus {
+	outline: 0;
+}
