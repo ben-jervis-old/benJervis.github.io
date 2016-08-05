@@ -83,47 +83,14 @@ button:active {
 button:focus {
 	outline: 0;
 }
-/*
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	header {
 		visibility: hidden;
 	}
 	
-	h1 {
-		font-size: 12rem;
-		margin-bottom: 80px;
-	}
-	
-	input, button {
-		font-size: 3.6rem;
-		width: 80%;
-		padding: 25px;
-		margin: 30px auto;
-	}
-	
 	.login-section {
 		margin-top: 5vh;
 	}
-	
-	.link-store {
-		width: auto;
-		margin: 40px auto;
-	}
-	
-	p {
-		display: block;
-		text-align: center;
-		float: center;
-		font-size: 2rem;
-		width: auto;
-	}
-	
-	#create {
-		float: center;
-	}
-	
-	#reset {
-		float:center;
-	}
 }
-*/
+
