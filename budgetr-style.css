@@ -95,6 +95,7 @@ button:focus {
 	
 	input, button {
 		margin: 15px auto;
+		padding: 15px;
 	}
 }
 
