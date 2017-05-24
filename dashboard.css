@@ -71,6 +71,10 @@ body {
 	font-size: 1.5em;
 }
 
+#tab-menu small {
+	display: block;
+}
+
 #content-div {
 	padding-left: 10px;
 	padding-top: 20px;
@@ -96,7 +100,7 @@ table {
 
 table td {
 	width: 20%;
-	padding: 15px 0;
+	padding: 10px 0;
 }
 
 a > li.sidebar-list-item.active {

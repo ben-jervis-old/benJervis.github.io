@@ -68,6 +68,9 @@ body {
 	.glyphicon {
 		font-size: 1.5em;
 	}
+	small {
+		display: block;
+	}
 }
 
 #content-div {
@@ -93,7 +96,7 @@ table {
 	bottom: 0;
 	td {
 		width: 20%;
-		padding: 15px 0;
+		padding: 10px 0;
 	}
 }
 
