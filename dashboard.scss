@@ -96,7 +96,10 @@ table {
 	bottom: 0;
 	td {
 		width: 20%;
-		padding: 10px 0;
+		a {
+			padding: 10px 0;
+			display: block;
+		}
 	}
 }
 
