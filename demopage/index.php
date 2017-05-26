@@ -4,19 +4,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php require_once "/partials/header.php"; ?>
+		<?php require_once "/demopage/partials/header.php"; ?>
 	</head>
 	<body>
-		<?php require_once "/partials/navbar.php"; ?>
+		<?php require_once "/demopage/partials/navbar.php"; ?>
 		<div class="container-fluid">
 			<div class="row" id="main-body-div">
-				<?php require_once "/partials/sidebar.php"; ?>
+				<?php require_once "/demopage/partials/sidebar.php"; ?>
 				<div id="content-div">
 					<div class="container-fluid">
 						<div class="page-header">
 							<h1>St Mark's Anglican Church</h1>
 						</div>
-						<?php require_once "/partials/cards.php"; ?>
+						<?php require_once "/demopage/partials/cards.php"; ?>
 						<div class="row padded-row">
 							<h2>Notifications (2)</h2>
 							<div class="panel panel-default">
@@ -40,9 +40,9 @@
 						</div>
 					</div>
 				</div>
-				<?php require_once "/partials/tabmenu.php"; ?>
+				<?php require_once "/demopage/partials/tabmenu.php"; ?>
 			</div>
 		</div>
-		<?php require_once "/partials/scripts.php"; ?>
+		<?php require_once "/demopage/partials/scripts.php"; ?>
 	</body>
 </html>
