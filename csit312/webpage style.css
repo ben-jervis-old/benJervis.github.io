@@ -1,0 +1,66 @@
+
+* {
+ font-family: Open Sans;
+ color:#333333;
+}
+
+body {
+	background-image: url("Logo for background.png"), url("background.png");
+	background-size: 400px 120px, contain;
+	background-position: 50% 150px,50% 0px; 
+	background-repeat: no-repeat;
+	background-attachment: scroll, fixed;
+	background-color: #2c3e50;
+}
+
+h1{
+	color: #337AB7;
+}
+h2{
+	color: #337AB7;
+}
+h3{
+	color: #337AB7;
+}
+h4{
+	color: #333333;
+}
+
+.namebubble{
+	width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  color: #333333;
+  line-height: 200px;
+  text-align: center;
+  background: #18bc9c;
+  font-size: 19px; 
+  margin: 0 auto;
+}
+
+.white{
+	color:#333333;
+	background-color:#ffffff;
+}
+.gray{
+	color:#333333;
+	background-color:#f5f5f5;
+}
+.darkblue{
+	color:#FFFFFF;
+	background-color:#2c3e50;
+}
+.blue{
+	color:#FFFFFF;
+	background-color:#337ab7;
+}
+.teal{
+	color:#333333;
+	background-color:#18bc9c;
+}
+
+
+.section-hieght{
+	min-height:350px;
+	max-height:1000px;
+}
