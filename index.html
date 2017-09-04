@@ -1,8 +1,61 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script language="javascript"> location.replace("http://www.civitascrm.com.au/")
-		</script>
-		<title>CSIT321 Project - University of Wollongong</title>
+		<meta charset="utf-8">
+		<title>civitasCRM</title>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+		<style>
+			body {
+				background-color: #ECECEA;
+				font-family: 'Montserrat', sans-serif;
+			}
+			h1 {
+				font-weight: normal;
+				color: #3f3f3f;
+			}
+			.logo h1 {
+				font-family: 'Signika', sans-serif;
+				font-size: 4em;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.fa {
+				font-size: 10em;
+				color: #999;
+			}
+			.loading-holder {
+				padding-top: 15vh;
+			}
+			.loading-icon, .loading-heading {
+				margin: 0 auto;
+				text-align: center;
+			}
+		</style>
 	</head>
+	<body>
+		<div class="loading-holder">
+			<div class="logo">
+				<h1>civitasCRM</h1>
+			</div>
+			<br>
+			<div class="loading-icon">
+				<!-- loading.io -->
+				<svg width="200px"  height="200px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-dual-ring" style="background: none;">
+				    <circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke-width="{{config.width}}" ng-attr-stroke="{{config.c1}}" ng-attr-stroke-dasharray="{{config.dasharray}}" fill="none" stroke-linecap="round" r="45" stroke-width="6" stroke="#2c3e50" stroke-dasharray="70.68583470577035 70.68583470577035" transform="rotate(192 50 50)">
+				      <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="2.5s" begin="0s" repeatCount="indefinite"></animateTransform>
+				    </circle>
+				    <circle cx="50" cy="50" ng-attr-r="{{config.radius2}}" ng-attr-stroke-width="{{config.width}}" ng-attr-stroke="{{config.c2}}" ng-attr-stroke-dasharray="{{config.dasharray2}}" ng-attr-stroke-dashoffset="{{config.dashoffset2}}" fill="none" stroke-linecap="round" r="38" stroke-width="6" stroke="#18bc9c" stroke-dasharray="59.690260418206066 59.690260418206066" stroke-dashoffset="59.690260418206066" transform="rotate(-192 50 50)">
+				      <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;-360 50 50" keyTimes="0;1" dur="2.5s" begin="0s" repeatCount="indefinite"></animateTransform>
+				    </circle>
+				  </svg>
+			</div>
+			<div class="loading-heading">
+				<h1>Loading...</h3>
+			</div>
+		</div>
+		<script language="javascript"> location.replace("http://www.civitascrm.com.au/")</script>
+	</body>
 </html>
