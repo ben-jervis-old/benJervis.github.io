@@ -56,7 +56,9 @@
 				<h1>Loading...</h3>
 			</div>
 		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
 		<script>
+		$(document).ready( function() {
 			(function (root, factory) {
 				if (typeof define === 'function' && define.amd) {
 					define([], factory);
@@ -107,8 +109,7 @@
 
 				return ping;
 			}));
-		</script>
-		<script>
+
 			ping('http://www.civitascrm.com.au/').then(function(delta) {
 		    location.replace("http://www.civitascrm.com.au/")
 			}).catch(function(err) {
@@ -116,6 +117,7 @@
 			});
 			
 			setTimeout(function() { location.replace("http://www.civitascrm.com.au/"); }, 15000);
+		});		
 		</script>
 	</body>
 </html>
