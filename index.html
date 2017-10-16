@@ -109,11 +109,13 @@
 			return ping;
 		}));
 
-		ping('http://www.civitascrm.com.au/').then(function(delta) {
-		    location.replace("http://www.civitascrm.com.au/")
-		}).catch(function(err) {
-		    location.replace("http://www.civitascrm.com.au/")
-		});
+		setTimeout(function() {
+			ping('https://paydollies.herokuapp.com/').then(function(delta) {
+					location.replace("http://www.civitascrm.com.au/")
+			}).catch(function(err) {
+					location.replace("http://www.civitascrm.com.au/")
+			});
+		}, 2000);
 		</script>
 	</body>
 </html>
